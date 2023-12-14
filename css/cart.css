@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: ;
+}
+.top-link {
+    margin: 1% 1%;
+
+}
+
+.top-link a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.438);
+}
+.test-container{
+    display:flex;
+    flex-direction:column;
+   gap:10px;
+   height: 100vh;
+   margin:2%;
+
+
+}
+
+.row{
+    
+    display:grid;
+    grid-template-columns: 5% 12% 17% 17% 17% 16% 16%; 
+    text-align: center;
+    align-items:center;
+}
+.product{
+    background-color: ;
+    grid-column: 2/3;
+}
+.product-image-container{
+    background-color: red;
+    width: 90%;
+    height: 10 rem;
+}
+.price{
+    grid-column: 4/5;
+}
+.total{
+    background-color: ;
+    grid-column: 7/8;
+}
+.checkout{
+    grid-column: 2/4;
+    background-color: black;
+        color: white;
+        padding: 3%;
+        width: 100%;
+        margin-top: 2%;
+}
+.clearbtn{
+    grid-column:6/7;
+  
+}
+#cancel{
+    background-color: transparent;
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 100%;
+    align-self: center;
+    padding: .2rem;
+}
+
+
+.row:nth-of-type(1){
+    border-top:1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+.title{
+    margin:4%;
+    background-color:;
+    
+}
+
+.clearbtn{
+    background-color: white;
+    margin: 2%;
+}
+.updatebtn{
+    background-color: ;
+    border:none;
+    margin: 2%;
+}
+
+.quantity-input{
+    background-color: ;
+    width:30%;
+    height: 3rem;
+    align-self: center;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+
+
+.suggestion-container{
+    display:flex;
+    flex-direction: column;
+}
+.title1{
+   text-align: center;
+}
+.suggestion-card-container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:5%;
+    padding:3%;
+    background-color:;
+}
+.suggestion-card{
+  
+    text-align: center;
+}
+.suggestion-image-container{
+    background-color: rgba(211, 200, 200, 0.384);
+    position:relative;
+}
+.suggestion-image-container >img{
+    width:150px;
+    height:250px;
+
+}
+.discount{
+    background-color: rgb(216, 48, 18);
+    position:absolute;
+    top:3%;
+    right:3%;
+    color:white;
+    padding:1%;
+
+    /* right: 5;
+    top:10; */
+}
+.originalprice{
+    color:grey;
+}
