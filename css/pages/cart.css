@@ -37,7 +37,6 @@ body{
     grid-column: 2/3;
 }
 .product-image-container{
-    background-color: red;
     width: 90%;
     height: 10 rem;
 }
@@ -103,46 +102,3 @@ body{
     padding-right: 7%;
 }
 
-
-
-.suggestion-container{
-    display:flex;
-    flex-direction: column;
-}
-.title1{
-   text-align: center;
-}
-.suggestion-card-container{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-    gap:5%;
-    padding:3%;
-    background-color:;
-}
-.suggestion-card{
-  
-    text-align: center;
-}
-.suggestion-image-container{
-    background-color: rgba(211, 200, 200, 0.384);
-    position:relative;
-}
-.suggestion-image-container >img{
-    width:150px;
-    height:250px;
-
-}
-.discount{
-    background-color: rgb(216, 48, 18);
-    position:absolute;
-    top:3%;
-    right:3%;
-    color:white;
-    padding:1%;
-
-    /* right: 5;
-    top:10; */
-}
-.originalprice{
-    color:grey;
-}
